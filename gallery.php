@@ -7,8 +7,8 @@
     <link href= 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head> 
 <body>
-		<h1>Ваши фотографии для получения скидки</h1>
-		<h2>Скидка действует 1 раз в сезон</h2>
+	<h1>Ваши фотографии для получения скидки</h1>
+	<h2>Скидка действует 1 раз в сезон</h2>
 <?php
     session_start();
     $timer = 86400 - (time() - $_SESSION['time']);
@@ -32,10 +32,10 @@
             <img src="/images/<?php echo $img; ?>" height="30%">
             <?php
         }
-        ?>
-        <br>
-        <br>
-        <a href="/index.php">Вернуться назад </a>
+?>
+    <br>
+    <br>
+    <a href="/index.php">Вернуться назад </a>
     <footer>
         © <?php echo date('Y'); ?> SPA Салон. Все права защищены.
     </footer>
