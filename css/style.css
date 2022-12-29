@@ -1,0 +1,123 @@
+/*Общий стиль*/
+body {
+  background-image: url(/titleimage/title.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background-size: 1280px 630px;*/
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(195, 192, 192);
+  text-align: center;
+  text-shadow: 
+    -1px -1px 0 rgb(67, 66, 66),  
+    1px -1px 0 rgb(67, 66, 66),
+    -1px 1px 0 rgb(67, 66, 66),
+    1px 1px 0 rgb(67, 66, 66);
+    letter-spacing : 1px;
+} 
+/*Кнопки*/  
+a {
+  color: #e7773f;
+ 
+  height: 10vh;
+  font-weight: 400;
+  font-size: 22px;
+}  
+/*Разметка логина и пароля по центру и выравнивание по высоте*/
+.mlogin {
+  margin: 3em auto 3em;
+}
+/*Размер шрифта - Авторизация*/
+h4 {
+  font-size: 25px;
+}
+
+p{
+  color: #fff;
+  text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h1 {
+  color: #fe2f00;
+  height: 10vh;
+  font-family: 'Сomic Sans MS', cursive;
+  font-size: 40px;
+  letter-spacing : 5px;
+}
+
+h2 {
+  color: #ff2f00;
+  height: 2vh;
+      font-family: 'Сomic Sans MS', cursive;
+      font-size: 20px;
+      letter-spacing : 5px;
+}
+/*Кнопка-текст*/
+h3 {
+  font-size: 15px;
+  color: #ff5900;
+}        
+/*Рамка авторизации*/
+.container {
+  padding: 1px 16px 15px 10px;
+  font-weight: 400;
+  overflow: hidden;
+  width: 350px;
+  height: auto;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+  -moz-box-shadow: 0 1px 13px rgba(0,0,0,.13);
+  box-shadow: 0 1px 3px rgba(0,0,0,.13);
+  border-radius: 15px;
+}
+
+img {
+  border: 3px solid #b4a7a7;
+}
+/*Рамка логина и пароля*/         
+.container form .input,.container input[type=text],.container input[type=password] {
+  background: #fbfbfb;
+  font-size: 15px;
+  line-height: 1;
+  width: 50%;
+  padding: 2px;
+  margin: 0 6px 5px 0;
+  outline: none;
+  border: 1px solid #d9d9d9;
+}
+/*Кнопки*/ 
+body button{
+  border: solid 1px #da7c0c;
+  background: #f78d1d;
+  background: -webkit-gradient(linear, left top, leftbottom, from(#faa51a), to(#f47a20));
+  background: -moz-linear-gradient(top,  #faa51a, #f47a20);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+  color: #fff;
+  padding: 7px 50px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border-radius:4px;
+  float: center;
+  cursor: pointer;
+}
+form {
+  color: rgb(211, 207, 207);
+  font-size: 15px;
+  letter-spacing : 2px;
+}
+/*Подвал*/
+footer {
+  color: #fff;
+  text-shadow: 
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 50px;
+}
